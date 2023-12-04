@@ -1,0 +1,43 @@
+pessoa 1
+
+nome : bruno
+
+testes realizados:
+
+testes iniciais 'sistema':
+
+	sistema utilizado :
+
+	linux ubuntu 22.01
+
+	apache2+libmysql
+
+	mysql_server
+	
+	Programas utilizados :
+	
+	vscode
+	
+	figma
+	
+	terminal
+
+os testes no sistema mostraram erros pois estava faltando conmponentes para o devido funcionamento do apache2 e mysql. Os erros foram resolvidos intalando dependencias para a correta utilização do mysql, onde de inicio não era possivel realizar conecxoes. O apache precisou de modificações no arquivo .ini localizado na pasta rais do apache para modificar as configurações de acesso ao arquivo .htacess e com isso permitir a opção de rotas que vem configurado por padrão como no em ambiente de desenvolvimento.
+
+
+feito testes unitarios para verificar erros na pagina home :
+teste de usabilidade: apresentou problemas por exesso de conteudo que foi solucionado aumentando a densidade dos textos iniciais e diminuindo as seções.
+status da pagina home = funcionando sem erros
+
+feito testes unitarios para verificar erros na pagina NossosCafes :
+teste de usabilidade detectou melhorias possiveis nos cards e foi feita uma correção utilizando maior transparencia do que o modelo criado no figma.
+
+teste de bugs realizado encontrou problemas com rotas dos cards, foi realizada a correção utilizando um arquivo unico para processamento e loguin evitando erros de segurança da rota poder ser utilizada para ter acesso indevido. 
+
+feito testes unitarios em meus pedidos :
+Foi encontrado problemas na obtenção de dados do banco de dados usuario que foi resolvido previamente 
+
+Foi encontrado problemas com javascript que não estava encontrando a div para esconder os conteudos, o problema foi resolvido passando o codigo javascript para a parte de baixo das paginas localizadas na view, assim a pagina carrega antes do codigo e tudo funciona corretamente
+
+
+

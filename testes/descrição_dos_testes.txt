@@ -1,0 +1,13 @@
+No projeto do site foram feitos testes unitarios funcionais de forma manual, utilizando testes progressivos a medida que o site e os sistemas estavam a ser feitos.
+
+foram feitos testes no front-end, back-end, banco de dados, sistemas de roteamento.
+
+Os testes mostraram falhas basicas como ponto-virgulas faltando alem de alguns problemas com roteamento que foram corrigidos.
+
+testes iniciais no banco de dados resultaram em algumas alterações de tipo para facilitar o uso do site incluindo trocar a foto do produto que seria enviada ao servidor pelo cadastramento para um simples nome de imagem a fim de facilitar problemas com a utilização do site, visto que o site não teria muitos produtos não fazeria sentido adicionar muito codigo que poderia levar a erros e aumentar a dificuldade de utilização.
+
+foram feitos testes de uso que acabaram modificando a aparencia do site em algumas areas como nas seleções de itens para serem vistos tanto na area do usuario meus pedidos como no cadastramento adm
+
+essa modificação foi feita para diminuir o volume e apresentar de forma mais convidativa o conteudo para o usuario ou adiministrador, resultando em grande ganho de espaço e tempo que o cliente precisara para achar e visualizar os dados necesarios de seu interesse.
+
+

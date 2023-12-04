@@ -1,0 +1,78 @@
+CREATE DATABASE site_cafeteria;
+
+tabela usuario ->(){
+			-id
+			-nick
+			-senha
+			-nome completo
+			-data de nascimento
+			-email
+			-endereço
+			-cpf
+			-telefone
+			-historico de pedidos
+			}
+
+tabela produtos ->(){
+			-id
+			-nome do produto
+			-foto( nome da foto )
+			-avaliação estrelas
+			-texto descritivo do produto
+			-preço do produto
+			-lucro do produto
+			-imposto sobre o lucro
+			}
+			
+tabela vendas(){
+			-id
+			-data da venda do produto
+			-id comprador do produto
+			-id do produto vendido
+			-quantidade vendida
+			}
+
+tabela fornecedores ->(){
+			-id
+			-nome do fornecedor
+			-endereço
+			-telefone
+			-cnpj
+			-email
+			}
+
+tabela produtos-fornecedores(){
+			-id
+			-cnpj
+			-produto
+			-preço
+			}
+
+tabela funcionarios(){
+			-id
+			-nome
+			-endereço
+			-cpf
+			-telefone
+			-salario
+			-cargo
+			-situação de operação
+			}
+
+tabela despesas(){
+			-id
+			-mes de operação
+			-gastos estabelecimento
+			-gastos fornecedores
+			-gastos funcionarios
+			}
+
+
+tabela contabilidade ->(){
+			-id
+			-data mes e ano de operação
+			-receita gerada
+			-despesas
+			-imposto a ser pago
+			-resultado financeiro do mes
+			}

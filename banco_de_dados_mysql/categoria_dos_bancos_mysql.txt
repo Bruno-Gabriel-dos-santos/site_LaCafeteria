@@ -1,0 +1,11 @@
+Bancos mysql para o site La cafeteria
+
+-> Gerencial
+banco_admin
+banco_fornecedor
+banco_relatorio_da_semana
+banco_contabilidade
+
+-> Comercial
+banco_cliente
+banco_produtos

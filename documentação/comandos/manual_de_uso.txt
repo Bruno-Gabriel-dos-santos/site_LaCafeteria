@@ -1,0 +1,13 @@
+O codigo do site esta na pasta "codigo", la voce encontrara todo o codigo ja estruturado que precisara para subir o site em sua hospedagem de preferencia.
+
+Alem disso tambem sera necessario cadastrar o banco de dados que esta disponivel em "banco_de_dados_mysql/" onde estão no arquivo codigos_para_cadastramento_dos_bancos_de_dados.
+
+voce ira utilizar esses comandos para criar os bancos de dados necessarios na hospedagem de sua preferencia.
+
+Para cadastrar ou excluir digite na barra de link adm, voce sera redirecionado para o login adm caso não esteja logado e de la podera inserir e excluir os dados necessarios.
+
+para adicionar as imagens copie e cole as imagens em puclic/data/ , voce ira então inserir a imagem na pasta data e ira ao cadastrar o produto de uso somente o nome da foto com sua extensão como por ex "1.jpg".
+
+
+
+Apos realizar os devidos cadastramentos clique em sair para sair.

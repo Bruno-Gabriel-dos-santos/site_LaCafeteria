@@ -1,0 +1,5 @@
+Os sitemas back-end se encontram na area model e estão estruturados pelo nome de sua rota e arquivo de renderização.
+
+A construção do back-end se da atravez de banco de dados que estão devidamente descritos na sessão demostrativa de banco de dados que contem toda sua estrutura e seus comando para criação e tipo em caso de necessiadade de consulta estão na pasta "banco_de_dados_mysql".
+
+os codigos estão na pasta codigos

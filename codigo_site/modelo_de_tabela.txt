@@ -1,0 +1,78 @@
+database -> site_cafeteria;
+=============================================================================
+CREATE TABLE usuario (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nick VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL,
+    nome_completo VARCHAR(255) NOT NULL,
+    data_nascimento DATE NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    cpf VARCHAR(14) NOT NULL,
+    telefone VARCHAR(15) NOT NULL,
+    historico_pedidos TEXT
+);
+==============================================================================
+CREATE TABLE produtos (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome_do_produto VARCHAR(255) NOT NULL,
+    foto_nome VARCHAR(255),
+    avaliacao_estrelas INT,
+    texto_descritivo TEXT,
+    preco_produto DECIMAL(10, 2) NOT NULL,
+    lucro_produto DECIMAL(10, 2),
+    imposto_sobre_lucro DECIMAL(5, 2)
+);
+=============================================================================
+CREATE TABLE vendas (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    data_venda DATE NOT NULL,
+    id_comprador INT NOT NULL,
+    id_produto_vendido INT NOT NULL,
+    quantidade_vendida INT NOT NULL
+);
+============================================================================
+CREATE TABLE fornecedores (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome_do_fornecedor VARCHAR(255) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    telefone VARCHAR(15) NOT NULL,
+    cnpj VARCHAR(18) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
+============================================================================
+CREATE TABLE produtos_fornecedores (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    cnpj_fornecedor VARCHAR(18) NOT NULL,
+    produto VARCHAR(255) NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL
+);
+===========================================================================
+CREATE TABLE funcionarios (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    cpf VARCHAR(14) NOT NULL,
+    telefone VARCHAR(15) NOT NULL,
+    salario DECIMAL(10, 2) NOT NULL,
+    cargo VARCHAR(255) NOT NULL,
+    situacao_operacao VARCHAR(255) NOT NULL
+);
+==========================================================================
+CREATE TABLE despesas (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    mes_operacao DATE NOT NULL,
+    gastos_estabelecimento DECIMAL(10, 2) NOT NULL,
+    gastos_fornecedores DECIMAL(10, 2) NOT NULL,
+    gastos_funcionarios DECIMAL(10, 2) NOT NULL
+);
+==========================================================================
+CREATE TABLE contabilidade (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    data_mes_ano DATE NOT NULL,
+    receita_gerada DECIMAL(10, 2) NOT NULL,
+    despesas DECIMAL(10, 2) NOT NULL,
+    imposto_a_ser_pago DECIMAL(10, 2) NOT NULL,
+    resultado_financeiro DECIMAL(10, 2) NOT NULL
+);
+

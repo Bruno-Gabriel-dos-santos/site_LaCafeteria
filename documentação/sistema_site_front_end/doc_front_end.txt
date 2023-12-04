@@ -1,0 +1,3 @@
+Os conteudos front-end estão localizados na sessao pages dentro da view, o site foi feito no padrão mvc e por isso é utilizado um renderizador dinamico em diversos elementos que são isolados na camada view dada a sua devida pagina.
+
+

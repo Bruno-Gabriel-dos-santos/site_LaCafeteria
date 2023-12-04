@@ -1,0 +1,74 @@
+La Cafeteria - Modelo de Negócios
+
+1. Informações Gerais:
+
+Nome do Negócio: La Cafeteria
+Missão: Oferecer café de alta qualidade e conveniência aos nossos clientes, tornando cada xícara uma experiência única.
+Visão: Ser a principal escolha dos amantes de café para pedidos online e delivery rápido.
+Valores: Qualidade, Conveniência, Sustentabilidade, Atendimento ao Cliente.
+2. Segmento de Clientes:
+
+Clientes Individuais: Amantes de café que apreciam qualidade e conveniência.
+Empresas e Escritórios: Locais que desejam oferecer café fresco para seus funcionários.
+Estudantes: Estudantes universitários e profissionais em busca de um impulso de cafeína.
+Eventos: Organizadores de eventos que desejam serviços de café.
+3. Proposta de Valor:
+
+Entrega Rápida de Café Fresco e Produtos Relacionados
+Variedade de Cafés de Qualidade
+Programa de Fidelidade e Cupons de Desconto
+Personalização de Pedidos
+Opções Sustentáveis
+4. Canais de Vendas:
+
+Site de E-Commerce: Plataforma de pedidos online.
+Aplicativo Móvel: Aplicativo de pedidos para dispositivos móveis.
+Parcerias com Plataformas de Entrega: Colaborações com serviços de entrega.
+5. Relacionamento com o Cliente:
+
+Atendimento ao Cliente Online: Chat, E-mail, Suporte Telefônico.
+Programa de Fidelidade: Recompensas para clientes regulares.
+Comunicação nas Redes Sociais: Engajamento com a comunidade.
+6. Recursos-Chave:
+
+Site e Aplicativo de Pedidos
+Infraestrutura de Entrega
+Equipe de Atendimento
+Relacionamentos com Fornecedores de Café
+Equipe de Entrega
+7. Atividades-Chave:
+
+Gerenciamento de Pedidos
+Preparo de Produtos de Café
+Entrega Rápida e Eficiente
+Suporte ao Cliente e Gerenciamento de Pedidos
+Desenvolvimento de Promoções
+8. Parceiros-Chave:
+
+Fornecedores de Café de Qualidade
+Plataformas de Entrega
+Equipe de Entrega
+Fornecedores de Produtos Relacionados
+9. Estrutura de Custos:
+
+Custos de Compra de Café de Qualidade
+Salários dos Empregados
+Custos de Entrega e Logística
+Despesas de Marketing e Publicidade
+Custos de Manutenção do Site e Aplicativo
+10. Fontes de Receita:
+
+Vendas de Café e Produtos Relacionados
+Taxas de Entrega
+Programa de Fidelidade
+Promoções e Combos
+11. Detalhes Operacionais:
+
+Implementação de Cliente: Contas de cliente, informações de contato, histórico de pedidos, favoritos, cupons de desconto.
+Produtos: Tipos de café, variedades, preços, tamanhos, tempos de preparo, custos de produção, margem de lucro.
+Financeiro: Registros diários, semanais e mensais de lucro, gastos, relatórios gerais, salários dos empregados.
+Promoções e Combos: Ofertas especiais, promoções de produtos mais pedidos.
+Rotas e Entregas: Número de entregadores, tempo médio de entrega, status da entrega, comprovantes, localização, horários.
+Sistema de Administração: Funcionalidades de administração, como adicionar, modificar e excluir produtos, gerenciar clientes, empregados e relatórios.
+Empregados e Funcionários: Detalhes dos empregados, salários, status operacional, informações de férias, datas de início, tipo de emprego, comissões, custos adicionais.
+Fornecedores: Dados de fornecedores, pedidos, entregas, agendamentos e histórico de pedidos.

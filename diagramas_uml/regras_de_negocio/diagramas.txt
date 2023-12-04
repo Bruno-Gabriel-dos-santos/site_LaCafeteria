@@ -1,0 +1,12 @@
+Diagramas de Regra de Negocios do Café gurmet
+
+Diagrama de Fluxo de Processo (DFP) ou Diagrama de Fluxo de Trabalho (DFW)
+Diagrama de Caso de Uso (Use Case Diagram)
+Diagrama de Classe (Class Diagram)
+Diagrama de Sequência (Sequence Diagram)
+Diagrama de Estado (State Diagram)
+Diagrama de Atividade (Activity Diagram)
+Diagrama de Componente (Component Diagram)
+Diagrama de Implantação (Deployment Diagram)
+Diagrama de Interação (Collaboration Diagram)
+Diagrama de Fluxo de Dados (Data Flow Diagram - DFD)
